@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 4%;
+    --foreground: 180 100% 95%;
+
+    --card: 220 25% 7%;
+    --card-foreground: 180 100% 95%;
+
+    --popover: 220 25% 7%;
+    --popover-foreground: 180 100% 95%;
+
+    --primary: 175 100% 50%;
+    --primary-foreground: 220 20% 4%;
+
+    --secondary: 220 30% 12%;
+    --secondary-foreground: 180 100% 85%;
+
+    --muted: 220 20% 14%;
+    --muted-foreground: 215 20% 55%;
+
+    --accent: 145 100% 50%;
+    --accent-foreground: 220 20% 4%;
+
+    --destructive: 0 85% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --warning: 45 100% 55%;
+    --warning-foreground: 220 20% 4%;
+
+    --border: 215 25% 16%;
+    --input: 215 25% 16%;
+    --ring: 175 100% 50%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 220 25% 6%;
+    --sidebar-foreground: 180 100% 95%;
+    --sidebar-primary: 175 100% 50%;
+    --sidebar-primary-foreground: 220 20% 4%;
+    --sidebar-accent: 220 30% 12%;
+    --sidebar-accent-foreground: 180 100% 85%;
+    --sidebar-border: 215 25% 16%;
+    --sidebar-ring: 175 100% 50%;
+
+    --neon-glow: 175 100% 50%;
+    --cyber-grid: 215 25% 10%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  code, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer utilities {
+  .neon-text {
+    color: hsl(var(--primary));
+    text-shadow: 0 0 10px hsl(var(--primary) / 0.5), 0 0 40px hsl(var(--primary) / 0.2);
+  }
+
+  .neon-border {
+    border-color: hsl(var(--primary) / 0.4);
+    box-shadow: 0 0 15px hsl(var(--primary) / 0.15), inset 0 0 15px hsl(var(--primary) / 0.05);
+  }
+
+  .neon-glow {
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.3), 0 0 60px hsl(var(--primary) / 0.1);
+  }
+
+  .cyber-grid-bg {
+    background-image:
+      linear-gradient(hsl(var(--cyber-grid) / 0.8) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--cyber-grid) / 0.8) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .scan-line {
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      hsl(var(--primary) / 0.05) 45%,
+      hsl(var(--primary) / 0.15) 50%,
+      hsl(var(--primary) / 0.05) 55%,
+      transparent 100%
+    );
+  }
+
+  .glass-card {
+    @apply bg-card/60 backdrop-blur-xl border border-border rounded-xl;
+  }
+}
+
+@keyframes scan-sweep {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+@keyframes pulse-neon {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: hsl(var(--primary)); }
+}
