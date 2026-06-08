@@ -231,5 +231,5 @@ Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and 
 Yes, you can!  yew yes you can....!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
+Aman...
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
