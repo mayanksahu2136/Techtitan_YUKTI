@@ -206,6 +206,7 @@ For issues or questions:
 1. Check [HACKATHON_SETUP.md](HACKATHON_SETUP.md)
 2. Review error messages in browser console
 3. Check backend terminal output
+4. make a rule 
 
 ---
 
