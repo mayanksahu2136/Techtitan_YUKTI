@@ -1,6 +1,6 @@
 # Cyber Sleuth - Social Media Account Authenticity Analyzer
 
-A full-stack application that analyzes social media profiles (Instagram, Facebook) to detect fake accounts, bots, and suspicious behavior patterns using ML and NLP analysis. and
+A full-stack application that analyzes social media profiles (Instagram, Facebook) to detect fake accounts, bots, and suspicious behavior patterns using ML and NLP analysis. and give analysis
 
 ## 🎯 Features
 
