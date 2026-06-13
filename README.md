@@ -8,7 +8,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 - **Manual Mode**: Supply profile details and screenshots for detailed assessment
 - **Trust Score**: 0-100 score indicating account authenticity
 - **Risk Levels**: HIGH RISK, POTENTIALLY FAKE, or LIKELY REAL
-- **Detailed Breakdown**: View analysis of engagement, followers, posting patterns, bio consistency, and text analysis
+- **Detailed Breakdown**: View analysis of engagement, followers, likes, posting patterns, bio consistency, and text analysis
 - **Real-time Processing**: Get results in seconds
 
 ## 🏗️ Architecture
