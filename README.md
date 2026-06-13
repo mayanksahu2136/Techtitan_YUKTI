@@ -14,7 +14,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 ## 🏗️ Architecture
 
 ### Frontend (React + TypeScript + Vite)
-- Modern UI with cyberpunk aesthetic
+- Modern UI with cyberpunk aesthetic fly
 - Real-time API integration
 - Type-safe components
 - Responsive design + responses maygam school the  the done
