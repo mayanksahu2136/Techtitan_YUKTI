@@ -4,7 +4,8 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 
 ## 🎯 Features
 
-- **Auto Mode**: Enter a username for instant analysis
+- **Auto Mode**: Enter a username for instant analysis/ final
+- 
 - **Manual Mode**: Supply profile details and screenshots for detailed assessment
 - **Trust Score**: 0-100 score indicating account authenticity
 - **Risk Levels**: HIGH RISK, POTENTIALLY FAKE, or LIKELY REAL
