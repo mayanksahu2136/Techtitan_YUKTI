@@ -31,6 +31,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 ### Prerequisites
 - Node.js 16+
 - Python 3.8+
+- alex
 
 ### Setup & Run
 
