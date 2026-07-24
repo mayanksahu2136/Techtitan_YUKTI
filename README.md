@@ -224,6 +224,7 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 - frontend
+- likely hood
 
 ## How can I deploy this project?
 
