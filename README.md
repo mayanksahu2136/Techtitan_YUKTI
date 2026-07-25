@@ -25,7 +25,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 - RESTful API with CORS support
 - NLP text analysis
 - ML-based trust scoring
-- Feature engineering for pattern detection with allowing wheels criteria 
+- Feature engineering for pattern detection with allowing wheels criteria rembelence of levels
 
 ## 🚀 Quick Start
 
