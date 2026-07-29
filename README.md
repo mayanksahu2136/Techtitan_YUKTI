@@ -13,6 +13,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 - **Real-time Processing**: Get results in seconds space maygams
 - night mare luminous score and transisitors
 - light terms maygams play why
+- jhdwjhdjhfjfhj
 
 ## 🏗️ Architecture
 
