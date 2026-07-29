@@ -12,6 +12,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 - **Detailed Breakdown**: View analysis of engagement, followers, likes, posting patterns, bio consistency, and text analysis
 - **Real-time Processing**: Get results in seconds space maygams
 - night mare luminous score and transisitors
+- light terms
 
 ## 🏗️ Architecture
 
