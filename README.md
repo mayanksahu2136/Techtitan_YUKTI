@@ -15,6 +15,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 - light terms maygams play why
 - jhdwjhdjhfjfh
 - adbjfhwwhfwejdhwejfhjeh
+- kldlkjdolwjdijwdjqwdjqwjdqwjdljwdijqwdjqwdkldj
 - jkdqjkdhkjdhkjwhdkjwhfjkhwwkffkwwf
 
 ## 🏗️ Architecture
