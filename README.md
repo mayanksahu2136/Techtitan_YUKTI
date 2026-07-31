@@ -158,6 +158,7 @@ CORS_ORIGINS=http://localhost:8082
 - **Account Age**: Time since creation vs follower count
 - **Bio Consistency**: Username and bio coherence
 - **NLP Analysis**: Spam keywords and suspicious patterns
+- also declined may space which gets more and more 
 
 ## 🛠️ Build & Deploy
 
