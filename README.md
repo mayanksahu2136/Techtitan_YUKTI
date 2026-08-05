@@ -29,6 +29,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 - Feature engineering for pattern detection with allowing wheels criteria rembelence of levels special tools
 
 ## 🚀 Quick Start
+quick
 
 ### Prerequisites
 - Node.js 16+
