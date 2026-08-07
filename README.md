@@ -225,8 +225,7 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-- frontend
-- likely hood
+- fronten
 
 ## How can I deploy this project?
 
