@@ -5,7 +5,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 ## 🎯 Features
 
 - **Auto Mode**: Enter a username for instant analysis/ final
-- 
+  
 - **Manual Mode**: Supply profile details and screenshots for detailed assessment
 - **Trust Score**: 0-100 score indicating account authenticity
 - **Risk Levels**: HIGH RISK, POTENTIALLY FAKE, or LIKELY REAL
@@ -156,7 +156,6 @@ CORS_ORIGINS=http://localhost:8082
 - **Account Age**: Time since creation vs follower count
 - **Bio Consistency**: Username and bio coherence
 - **NLP Analysis**: Spam keywords and suspicious patterns
-- also declined may space which gets more and more 
 
 ## 🛠️ Build & Deploy
 
