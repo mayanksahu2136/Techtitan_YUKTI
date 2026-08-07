@@ -18,8 +18,7 @@ A full-stack application that analyzes social media profiles (Instagram, Faceboo
 - Modern UI with cyberpunk aesthetic fly
 - Real-time API integration
 - Type-safe components
-- Responsive design + responses maygam school the  the done
-- maygam problm statement 
+- Responsive design + responses
 
 ### Backend (Flask + Python)
 - RESTful API with CORS support
